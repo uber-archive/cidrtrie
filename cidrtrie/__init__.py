@@ -22,6 +22,10 @@ import collections
 import struct
 import socket
 
+version_info = (0, 1)
+__version__ = '.'.join(str(c) for c in version_info)
+__author__ = 'Uber Technologies, Inc.'
+
 
 class DuplicateKeyError(Exception):
     pass

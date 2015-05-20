@@ -25,14 +25,14 @@ from setuptools import setup, find_packages
 
 setup(
     name="cidrtrie",
-    version="0.0.1",
+    version="0.1",
     author="James Brown",
     author_email="jbrown@uber.com",
     license="MIT",
     packages=find_packages(exclude=['tests']),
     test_suite="nose.collector",
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Environment :: Web Environment",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
