@@ -28,6 +28,8 @@ setup(
     version="0.1",
     author="James Brown",
     author_email="jbrown@uber.com",
+    url="https://github.com/uber/cidrtrie",
+    description="Prefix Tree (trie) for manipulating CIDR sets",
     license="MIT",
     packages=find_packages(exclude=['tests']),
     test_suite="nose.collector",
